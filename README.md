@@ -1,5 +1,8 @@
 ##🧠 Overview
-The objective was to clean and prepare a raw dataset for analysis using Excel and/or Python (Pandas). I chose the Netflix Movies and TV Shows dataset from Kaggle and performed a series of preprocessing steps to ensure data quality and consistency.📌 Task: Data Cleaning and Preprocessing
+The objective was to clean and prepare a raw dataset for analysis using Excel and/or Python (Pandas). I chose the Netflix Movies and TV Shows dataset from Kaggle and performed a series of preprocessing steps to ensure data quality and consistency.
+
+
+📌 Task: Data Cleaning and Preprocessing
 
 🎯 Objective
 
