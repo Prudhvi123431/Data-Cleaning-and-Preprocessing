@@ -1,7 +1,6 @@
 import pandas as pd
-
 # Load dataset
-df = pd.read_csv(r"C:\Users\PRUDHVI\Documents\cleaned_dataset.csv")
+df = pd.read_csv(r"C:\Users\PRUDHVI\Documents\dataset_netflix_titles1_raw data.csv")
 # ------------------------------
 # Track initial info
 # ------------------------------
