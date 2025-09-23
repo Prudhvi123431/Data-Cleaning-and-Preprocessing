@@ -1,76 +1,36 @@
-##🧠 Overview
-
-
+📊 Netflix Dataset Cleaning
+🧠 Overview
 The objective was to clean and prepare a raw dataset for analysis using Excel and/or Python (Pandas). I chose the Netflix Movies and TV Shows dataset from Kaggle and performed a series of preprocessing steps to ensure data quality and consistency.
+🛠️ Tools Used
+Microsoft Excel (for initial inspection and cleaning)
+Python (Pandas library, for deeper preprocessing)
+Kaggle Notebook (for execution and file management)
+📂 Dataset Description
+The dataset includes metadata about Netflix titles such as:
 
-
-📌 Task: Data Cleaning and Preprocessing
-
-🎯 Objective
-
-The goal of this task is to clean and prepare a raw dataset by handling missing values, duplicates, inconsistent formats, and incorrect data types.
-
-🛠 Tools Used
-
-Python (Pandas, NumPy) / Excel
-
-Jupyter Notebook / Google Colab/ VS Code
-
-
-📂 Steps Performed
-
-1. Handled Missing Values
-
-Checked for nulls using .isnull() (Python) / filters (Excel).
-
-Treated missing values using dropna() or fillna().
-
-
-
-2. Removed Duplicates
-
-Applied .drop_duplicates() (Python) / "Remove Duplicates" (Excel).
-
-
-
-3. Standardized Text Values
-
-Cleaned inconsistent entries (e.g., gender → Male/Female, country names).
-
-
-
-4. Fixed Date Formats
-
-Converted all dates to a consistent format: DD-MM-YYYY.
-
-
-
-5. Renamed Column Headers
-
-Used lowercase, replaced spaces with underscores.
-
-
-
-6. Checked & Corrected Data Types
-
-Converted numerical columns (e.g., age → int).
-
-Converted date columns to datetime.
-
-
-
-
-📊 Suitable Dataset (Kaggle)
-
-
-Netflix Movies and TV Shows
-
-
-🚀 Learning Outcomes
-
-Hands-on experience with real-world data cleaning.
-
-Improved understanding of data preprocessing.
-
-Confidence in preparing datasets for analysis & modeling.
-
+Title, Director, Cast
+Country of origin
+Date added to Netflix
+Release year, Rating, Duration
+Genre classification
+Description
+🔍 Cleaning & Preprocessing Steps
+Handled Missing Values: Identified nulls using .isnull() and filled or dropped based on context.
+Removed Duplicates: Verified uniqueness using Excel’s “Remove Duplicates” and drop_duplicates() in Pandas.
+Standardized Formats:
+Unified date formats using pd.to_datetime()
+Cleaned column headers (lowercase, no spaces)
+Normalized categorical values (e.g., country names)
+Verified Data Types: Ensured correct types for each column (e.g., integers for year, datetime for dates).
+📈 Summary of Changes
+The dataset was cleaned to remove inconsistencies, missing entries, and formatting issues. These changes improve its readiness for analysis, visualization, or modeling tasks.
+📎 Files Included
+cleaned_netflix_titles.xlsx: Final cleaned dataset
+task_1_summary.txt: Brief overview of cleaning steps
+Screenshots (optional): Visuals from Excel preprocessing
+README.md: This file
+💡 Learning Outcomes
+Strengthened skills in data cleaning using Excel and Pandas
+Gained hands-on experience with real-world datasets
+Improved understanding of preprocessing workflows
+Prepared a dataset suitable for further analysis or machine learning
