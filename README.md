@@ -60,45 +60,10 @@ Converted date columns to datetime.
 
 
 
-📑 Deliverables
+📊 Suitable Dataset (Kaggle)
 
-✅ Cleaned dataset (CSV/Excel)
-
-✅ Jupyter Notebook / Python Script with cleaning steps
-
-✅ Short summary of transformations (in this README)
-
-
-📊 Suitable Datasets (Kaggle)
-
-Customer Personality Analysis
-
-Medical Appointment No Shows
-
-Mall Customer Segmentation Data
 
 Netflix Movies and TV Shows
-
-Sales Data
-
-
-❓ Interview Questions Covered
-
-What are missing values and how do you handle them?
-
-How do you treat duplicate records?
-
-Difference between dropna() and fillna() in Pandas?
-
-What is outlier treatment and why is it important?
-
-Explain the process of standardizing data.
-
-How do you handle inconsistent date/time formats?
-
-What are common data cleaning challenges?
-
-How can you check data quality?
 
 
 🚀 Learning Outcomes
