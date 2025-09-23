@@ -33,11 +33,17 @@ Description
 
 
 Handled Missing Values: Identified nulls using .isnull() and filled or dropped based on context.
+
+
 Removed Duplicates: Verified uniqueness using Excel’s “Remove Duplicates” and drop_duplicates() in Pandas.
+
+
 Standardized Formats:
 Unified date formats using pd.to_datetime()
 Cleaned column headers (lowercase, no spaces)
 Normalized categorical values (e.g., country names)
+
+
 Verified Data Types: Ensured correct types for each column (e.g., integers for year, datetime for dates).
 
 
