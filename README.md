@@ -14,7 +14,7 @@ The goal of this task is to clean and prepare a raw dataset by handling missing 
 
 Python (Pandas, NumPy) / Excel
 
-Jupyter Notebook / Google Colab
+Jupyter Notebook / Google Colab/ VS Code
 
 
 📂 Steps Performed
